@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="SCHOOL" representedClassName="SCHOOL" syncable="YES">
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sname" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="schoolRel" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STUDENT" inverseName="studentrel" inverseEntity="STUDENT" syncable="YES"/>
+    </entity>
+    <entity name="STUDENT" representedClassName="STUDENT" syncable="YES">
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="no" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="studentrel" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SCHOOL" inverseName="schoolRel" inverseEntity="SCHOOL" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="STUDENT" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="SCHOOL" positionX="-54" positionY="-9" width="128" height="105"/>
+    </elements>
+</model>

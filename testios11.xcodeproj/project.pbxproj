@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17EAB60F1FA8FBCA00BC0BAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17EAB60E1FA8FBCA00BC0BAE /* AppDelegate.m */; };
+		17EAB6121FA8FBCA00BC0BAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17EAB6111FA8FBCA00BC0BAE /* ViewController.m */; };
+		17EAB6151FA8FBCA00BC0BAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17EAB6131FA8FBCA00BC0BAE /* Main.storyboard */; };
+		17EAB6181FA8FBCA00BC0BAE /* testios11.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17EAB6161FA8FBCA00BC0BAE /* testios11.xcdatamodeld */; };
+		17EAB61A1FA8FBCA00BC0BAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17EAB6191FA8FBCA00BC0BAE /* Assets.xcassets */; };
+		17EAB61D1FA8FBCA00BC0BAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17EAB61B1FA8FBCA00BC0BAE /* LaunchScreen.storyboard */; };
+		17EAB6201FA8FBCA00BC0BAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17EAB61F1FA8FBCA00BC0BAE /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17EAB60A1FA8FBCA00BC0BAE /* testios11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testios11.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EAB60D1FA8FBCA00BC0BAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17EAB60E1FA8FBCA00BC0BAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17EAB6101FA8FBCA00BC0BAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		17EAB6111FA8FBCA00BC0BAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		17EAB6141FA8FBCA00BC0BAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17EAB6171FA8FBCA00BC0BAE /* testios11.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = testios11.xcdatamodel; sourceTree = "<group>"; };
+		17EAB6191FA8FBCA00BC0BAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17EAB61C1FA8FBCA00BC0BAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17EAB61E1FA8FBCA00BC0BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17EAB61F1FA8FBCA00BC0BAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17EAB6071FA8FBCA00BC0BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		179F08231FEFF3AD00EDB94A /* CoreDB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreDB;
+			sourceTree = "<group>";
+		};
+		17EAB6011FA8FBCA00BC0BAE = {
+			isa = PBXGroup;
+			children = (
+				17EAB60C1FA8FBCA00BC0BAE /* testios11 */,
+				17EAB60B1FA8FBCA00BC0BAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17EAB60B1FA8FBCA00BC0BAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17EAB60A1FA8FBCA00BC0BAE /* testios11.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17EAB60C1FA8FBCA00BC0BAE /* testios11 */ = {
+			isa = PBXGroup;
+			children = (
+				179F08231FEFF3AD00EDB94A /* CoreDB */,
+				17EAB60D1FA8FBCA00BC0BAE /* AppDelegate.h */,
+				17EAB60E1FA8FBCA00BC0BAE /* AppDelegate.m */,
+				17EAB6101FA8FBCA00BC0BAE /* ViewController.h */,
+				17EAB6111FA8FBCA00BC0BAE /* ViewController.m */,
+				17EAB6131FA8FBCA00BC0BAE /* Main.storyboard */,
+				17EAB6191FA8FBCA00BC0BAE /* Assets.xcassets */,
+				17EAB61B1FA8FBCA00BC0BAE /* LaunchScreen.storyboard */,
+				17EAB61E1FA8FBCA00BC0BAE /* Info.plist */,
+				17EAB61F1FA8FBCA00BC0BAE /* main.m */,
+				17EAB6161FA8FBCA00BC0BAE /* testios11.xcdatamodeld */,
+			);
+			path = testios11;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17EAB6091FA8FBCA00BC0BAE /* testios11 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17EAB6231FA8FBCA00BC0BAE /* Build configuration list for PBXNativeTarget "testios11" */;
+			buildPhases = (
+				17EAB6061FA8FBCA00BC0BAE /* Sources */,
+				17EAB6071FA8FBCA00BC0BAE /* Frameworks */,
+				17EAB6081FA8FBCA00BC0BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testios11;
+			productName = testios11;
+			productReference = 17EAB60A1FA8FBCA00BC0BAE /* testios11.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17EAB6021FA8FBCA00BC0BAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = com.parmar;
+				TargetAttributes = {
+					17EAB6091FA8FBCA00BC0BAE = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 17EAB6051FA8FBCA00BC0BAE /* Build configuration list for PBXProject "testios11" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17EAB6011FA8FBCA00BC0BAE;
+			productRefGroup = 17EAB60B1FA8FBCA00BC0BAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17EAB6091FA8FBCA00BC0BAE /* testios11 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17EAB6081FA8FBCA00BC0BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17EAB61D1FA8FBCA00BC0BAE /* LaunchScreen.storyboard in Resources */,
+				17EAB61A1FA8FBCA00BC0BAE /* Assets.xcassets in Resources */,
+				17EAB6151FA8FBCA00BC0BAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17EAB6061FA8FBCA00BC0BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17EAB6181FA8FBCA00BC0BAE /* testios11.xcdatamodeld in Sources */,
+				17EAB6121FA8FBCA00BC0BAE /* ViewController.m in Sources */,
+				17EAB6201FA8FBCA00BC0BAE /* main.m in Sources */,
+				17EAB60F1FA8FBCA00BC0BAE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		17EAB6131FA8FBCA00BC0BAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17EAB6141FA8FBCA00BC0BAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17EAB61B1FA8FBCA00BC0BAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17EAB61C1FA8FBCA00BC0BAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17EAB6211FA8FBCA00BC0BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		17EAB6221FA8FBCA00BC0BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17EAB6241FA8FBCA00BC0BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = testios11/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.parmar.testios11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17EAB6251FA8FBCA00BC0BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = testios11/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.parmar.testios11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17EAB6051FA8FBCA00BC0BAE /* Build configuration list for PBXProject "testios11" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17EAB6211FA8FBCA00BC0BAE /* Debug */,
+				17EAB6221FA8FBCA00BC0BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17EAB6231FA8FBCA00BC0BAE /* Build configuration list for PBXNativeTarget "testios11" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17EAB6241FA8FBCA00BC0BAE /* Debug */,
+				17EAB6251FA8FBCA00BC0BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		17EAB6161FA8FBCA00BC0BAE /* testios11.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				17EAB6171FA8FBCA00BC0BAE /* testios11.xcdatamodel */,
+			);
+			currentVersion = 17EAB6171FA8FBCA00BC0BAE /* testios11.xcdatamodel */;
+			path = testios11.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 17EAB6021FA8FBCA00BC0BAE /* Project object */;
+}
